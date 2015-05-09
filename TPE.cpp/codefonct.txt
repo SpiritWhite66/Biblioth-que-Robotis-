@@ -1,0 +1,46 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    /****Boucle d'écriture****/
+    bool test = true;
+    int taille;
+    char a = 0;
+
+    ifstream open("C:/Users/vincent/Desktop/tpe.txt");
+if(open){
+    /**** Boucle de test ****/
+open.seekg(0, ios::end);  //On se déplace à la fin du fichier
+taille = open.tellg();
+if(taille < 1)
+{
+    cout <<"Fichier vide";
+}
+else
+{
+        char dn [taille];
+        cout <<"taille = "<<taille<<endl;
+
+        for(int i = 0 ; i != taille ; i++){
+        open.seekg(i, ios::beg);
+        open.get(dn[i]);
+
+        }
+        for(int i = 0 ; i < taille ; i++)
+        {
+        
+        }
+        ofstream write("C:/Users/vincent/Desktop/tpe.txt");
+            if(write){
+            write << "";
+            write.close();
+            }
+            else {
+            cout << "ERREUR: Impossible d'écrire dans le fichier." << endl;
+            }
+    }
+}
+}

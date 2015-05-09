@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1360444257 source:c:\users\vincent\desktop\tpe\tpe\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"comtxt.h"
+
+1360444473 source:c:\users\vincent\desktop\tpe\tpe\comtxt.cpp
+	"comtxt.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1360444536 c:\users\vincent\desktop\tpe\tpe\comtxt.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1360701579 source:c:\users\vincent\desktop\tpe\tpe.cpp\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"comtxt.h"
+
+1360702974 c:\users\vincent\desktop\tpe\tpe.cpp\comtxt.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<algorithm>
+	<stdio.h>
+	<stdlib.h>
+
+1360758340 source:c:\users\vincent\desktop\tpe\tpe.cpp\comtxt.cpp
+	"comtxt.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
